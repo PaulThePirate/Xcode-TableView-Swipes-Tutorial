@@ -59,7 +59,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     {
         let delete = UIContextualAction(style: .normal, title:  "Delete", handler: { (ac: UIContextualAction, view: UIView, success: (Bool) -> Void) in
             success(true)  
-        })
+        })  
         delete.backgroundColor = .red
         
         return UISwipeActionsConfiguration(actions: [delete])
